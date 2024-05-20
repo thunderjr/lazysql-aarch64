@@ -2,7 +2,7 @@ module github.com/thunderjr/lazysql-aarch64
 
 go 1.20
 
-replace github.com/jorgerojas26/lazysql => .
+replace github.com/jorgerojas26/lazysql => ./
 
 require (
 	github.com/gdamore/tcell/v2 v2.7.0
