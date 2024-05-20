@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/go-vgo/robotgo/clipboard"
 	"github.com/jorgerojas26/lazysql/models"
 
 	"github.com/jorgerojas26/lazysql/drivers"
@@ -11,7 +12,6 @@ import (
 	"github.com/gdamore/tcell/v2"
 	"github.com/google/uuid"
 	"github.com/rivo/tview"
-	"golang.design/x/clipboard"
 )
 
 type ResultsTableState struct {
@@ -490,14 +490,8 @@ func (table *ResultsTable) tableInputCapture(event *tcell.EventKey) *tcell.Event
 			selectedCell := table.GetCell(selectedRowIndex, selectedColumnIndex)
 
 			if selectedCell != nil {
-				err := clipboard.Init()
-
-				if err == nil {
-					text := []byte(selectedCell.Text)
-
-					if text != nil {
-						clipboard.Write(clipboard.FmtText, text)
-					}
+				if selectedCell.Text != "" {
+					clipboard.WriteAll(selectedCell.Text)
 				}
 			}
 		}

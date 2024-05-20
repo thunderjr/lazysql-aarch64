@@ -5,13 +5,13 @@ go 1.20
 require (
 	github.com/gdamore/tcell/v2 v2.7.0
 	github.com/go-sql-driver/mysql v1.7.1
+	github.com/go-vgo/robotgo v0.110.1
 	github.com/google/uuid v1.6.0
 	github.com/jorgerojas26/lazysql v0.2.0
 	github.com/lib/pq v1.10.9
 	github.com/pelletier/go-toml/v2 v2.1.1
 	github.com/rivo/tview v0.0.0-20240101144852-b3bd1aa5e9f2
 	github.com/xo/dburl v0.20.2
-	golang.design/x/clipboard v0.7.0
 	modernc.org/sqlite v1.29.10
 )
 
@@ -26,6 +26,7 @@ require (
 	github.com/ncruces/go-strftime v0.1.9 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/rivo/uniseg v0.4.3 // indirect
+	golang.design/x/clipboard v0.7.0 // indirect
 	golang.org/x/exp/shiny v0.0.0-20240506185415-9bf2ced13842 // indirect
 	golang.org/x/image v0.14.0 // indirect
 	golang.org/x/mobile v0.0.0-20231127183840-76ac6878050a // indirect
