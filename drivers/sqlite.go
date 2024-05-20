@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/jorgerojas26/lazysql/models"
-	_ "github.com/mattn/go-sqlite3"
 	"github.com/xo/dburl"
+	_ "modernc.org/sqlite"
 )
 
 type SQLite struct {
