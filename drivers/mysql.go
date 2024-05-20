@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jorgerojas26/lazysql/models"
+	"github.com/thunderjr/lazysql-aarch64/models"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/xo/dburl"

@@ -4,8 +4,8 @@ import (
 	"io"
 	"log"
 
-	"github.com/jorgerojas26/lazysql/app"
-	"github.com/jorgerojas26/lazysql/components"
+	"github.com/thunderjr/lazysql-aarch64/app"
+	"github.com/thunderjr/lazysql-aarch64/components"
 
 	"github.com/go-sql-driver/mysql"
 )

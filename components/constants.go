@@ -1,5 +1,5 @@
 package components
 
-import "github.com/jorgerojas26/lazysql/app"
+import "github.com/thunderjr/lazysql-aarch64/app"
 
 var App = app.App

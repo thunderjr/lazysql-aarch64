@@ -1,8 +1,8 @@
 package components
 
 import (
-	"github.com/jorgerojas26/lazysql/helpers"
-	"github.com/jorgerojas26/lazysql/models"
+	"github.com/thunderjr/lazysql-aarch64/helpers"
+	"github.com/thunderjr/lazysql-aarch64/models"
 
 	"github.com/gdamore/tcell/v2"
 	"github.com/rivo/tview"

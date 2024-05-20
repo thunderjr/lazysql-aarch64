@@ -3,7 +3,7 @@ package components
 import (
 	"github.com/rivo/tview"
 
-	"github.com/jorgerojas26/lazysql/app"
+	"github.com/thunderjr/lazysql-aarch64/app"
 )
 
 type Header struct {

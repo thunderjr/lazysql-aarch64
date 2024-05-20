@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/jorgerojas26/lazysql/models"
+	"github.com/thunderjr/lazysql-aarch64/models"
 
 	"github.com/pelletier/go-toml/v2"
 )

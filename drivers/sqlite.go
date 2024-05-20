@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jorgerojas26/lazysql/models"
+	"github.com/thunderjr/lazysql-aarch64/models"
 	"github.com/xo/dburl"
 	_ "modernc.org/sqlite"
 )
